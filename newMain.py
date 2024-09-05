@@ -10,7 +10,7 @@ cursor = connection.cursor()
 cursor.execute("CREATE TABLE IF NOT EXISTS messages(message TEXT)")
 cursor.execute("CREATE TABLE IF NOT EXISTS images_uuid(id TEXT)")
 connection.commit()
-TOKEN = "MTIyOTM5Nzc5MTY3MTk4MDA4Mw.G8U2b2.cGoA0TuzQRxMSWERuvdeSBx82_NivBJ0ncKIi0"
+TOKEN = "ur token here!!!!"
 bot = discord.Bot(intents=discord.Intents.all())
 
 
