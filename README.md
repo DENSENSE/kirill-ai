@@ -1,4 +1,4 @@
-This is private discord bot.
+This is private(no more) discord bot.
 
 Made for Mythex and my friends to have fun!!!
 
