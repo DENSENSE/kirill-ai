@@ -14,16 +14,7 @@ TOKEN = "MTIyOTM5Nzc5MTY3MTk4MDA4Mw.G8U2b2.cGoA0TuzQRxMSWERuvdeSBx82_NivBJ0ncKIi
 bot = discord.Bot(intents=discord.Intents.all())
 
 
-def anti_link(linestring):
-
-    """
-    Args:
-        linestring (string): [A string that contains a user's message]
-
-    Returns:
-        [Float]: [If user's message contains something that looks like a part of link return False, true if not]
-    """
-
+def anti_link(linestring): # say no to links, except gif ones(tenor)!
     if "https://tenor.com/" in linestring or 'tenor.com' in linestring:
         return True
     
